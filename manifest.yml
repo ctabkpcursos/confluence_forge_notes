@@ -1,0 +1,13 @@
+modules:
+  confluence:contentBylineItem:
+    - key: app-confluence-hello-world
+      function: main
+      title: App Confluence TEST JULIO
+      tooltip: Hello tooltip
+      description: Displays Hello world!
+  function:
+    - key: main
+      handler: index.run
+app:
+  id: ari:cloud:ecosystem::app/b65d3b93-ef27-4f8b-867c-36827e727d6d
+  name: App Confluence
